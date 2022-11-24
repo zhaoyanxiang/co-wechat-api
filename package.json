@@ -1,11 +1,15 @@
 {
-  "name": "co-wechat-api",
-  "version": "3.11.0",
+  "name": "@zhaoyanxiang/co-wechat-api",
+  "version": "3.12.1",
   "description": "微信公共平台Node库API，ES6版本",
   "main": "index.js",
   "scripts": {
     "test": "make test-all",
     "test-file": "mocha -R spec"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",

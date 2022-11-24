@@ -60,7 +60,7 @@ API.mixin(require('./lib/api_poi'));
 // 小程序二维码接口
 API.mixin(require('./lib/api_wxacode'));
 // 小程序登录
-API.mixin(require('./lib/api_miniprogram_login'));
+API.mixin(require('./lib/api_miniprogram'));
 // 小程序订阅消息接口
 API.mixin(require('./lib/api_subscribe_message'));
 
