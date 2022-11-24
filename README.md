@@ -3,11 +3,7 @@ Wechat API(ES6版)
 微信公共平台API。
 
 ## 模块状态
-- [![NPM version](https://badge.fury.io/js/co-wechat-api.png)](http://badge.fury.io/js/co-wechat-api)
-- [![Build Status](https://travis-ci.org/node-webot/co-wechat-api.png?branch=master)](https://travis-ci.org/node-webot/co-wechat-api)
-- [![Dependencies Status](https://david-dm.org/node-webot/co-wechat-api.png)](https://david-dm.org/node-webot/co-wechat-api)
-- [![Coverage Status](https://coveralls.io/repos/node-webot/co-wechat-api/badge.png)](https://coveralls.io/r/node-webot/co-wechat-api)
-
+- [![NPM version](https://badge.fury.io/js/@zhaoyanxiang%2Fco-wechat-api.png)](https://badge.fury.io/js/@zhaoyanxiang%2Fco-wechat-api)
 ## 功能列表
 - 发送客服消息（文本、图片、语音、视频、音乐、图文、小程序卡片）
 - 菜单操作（查询、创建、删除、个性化菜单）
@@ -36,13 +32,13 @@ Wechat API(ES6版)
 ## Installation
 
 ```sh
-$ npm install co-wechat-api
+$ npm install @zhaoyanxiang/co-wechat-api
 ```
 
 ## Usage
 
 ```js
-var WechatAPI = require('co-wechat-api');
+var WechatAPI = require('@zhaoyanxiang/co-wechat-api');
 
 async function() {
   var api = new WechatAPI(appid, appsecret);
